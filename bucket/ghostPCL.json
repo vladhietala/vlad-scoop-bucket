@@ -15,7 +15,7 @@
                 "gpcl6win64.exe",
                 [
                     "gpcl6win64.exe",
-                    "pcl6.exe"
+                    "pcl6"
                 ]
             ]
         },
@@ -27,7 +27,7 @@
                 "gpcl6win32.exe",
                 [
                     "gpcl6win32.exe",
-                    "pcl6.exe"
+                    "pcl6"
                 ]
             ]
         }
