@@ -13,7 +13,9 @@
         }
     },
     "bin": "youtube-dl.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/ytdl-org/ytdl-nightly"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

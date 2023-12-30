@@ -32,16 +32,19 @@
             ]
         }
     },
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/ArtifexSoftware/ghostpdl-downloads/",
+        "regex": "Ghostscript/GhostPDL ([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs$cleanVersion/ghostpcl-$Version-win64.zip",
-                "extract_dir":"ghostpcl-$Version-win64"
+                "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs$cleanVersion/ghostpcl-$version-win64.zip",
+                "extract_dir": "ghostpcl-$version-win64"
             },
             "32bit": {
-                "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs$cleanVersion/ghostpcl-$Version-win32.zip",
-                "extract_dir":"ghostpcl-$Version-win32"
+                "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs$cleanVersion/ghostpcl-$version-win32.zip",
+                "extract_dir": "ghostpcl-$version-win32"
             }
         },
         "hash": {
